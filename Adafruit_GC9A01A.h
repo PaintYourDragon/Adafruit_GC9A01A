@@ -134,5 +134,5 @@ private:
   // to the GC9A01A constructor that starts with an spiClass argument. This
   // should have no impact on existing code, which will continue using SPI
   // mode 0 as always!
-  uint8_t spi_mode = SPI_MODE0; // Save SPI mode from constructor to initSPI()
+  uint8_t spi_mode = SPI_MODE0; ///< Save SPI mode from constructor to initSPI()
 };
