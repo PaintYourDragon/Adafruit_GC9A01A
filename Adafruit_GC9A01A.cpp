@@ -99,6 +99,7 @@ Adafruit_GC9A01A::Adafruit_GC9A01A(int8_t cs, int8_t dc, int8_t rst)
     @param  cs        Chip select pin # (optional, pass -1 if unused and
                       CS is tied to GND).
     @param  rst       Reset pin # (optional, pass -1 if unused).
+    @param  mode      SPI mode (optional, defaults to SPI_MODE0 if unspecified).
 */
 Adafruit_GC9A01A::Adafruit_GC9A01A(SPIClass *spiClass, int8_t dc, int8_t cs,
                                    int8_t rst, uint8_t mode)
